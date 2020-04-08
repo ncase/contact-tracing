@@ -1,0 +1,20 @@
+body{
+	margin:50px;
+	background:#eeeeee;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+article{
+	width: 100%;
+	max-width: 650px;
+	margin:0 auto;
+}
+img{
+	display:inline-block;
+	width:320px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    margin:0px;
+  }
+}
